@@ -2,10 +2,10 @@ import tweepy
 import pymongo
 
 
-access_token="97889597-Zk3Qk9ODlvvqIQXvdZSdlNYtZ4ToWxNbDZlsHW0rI"
-access_secret="bYQfeRigzVIgLxkgInkW5L0ZZFBA46uMYxcQOOIg"
-consumer_key="QvkiReKCHNKcHn3pGrEzQ"
-consumer_secret="EV9vdMRfuT2AQlSNPJW4LhDAyOe0z1mAZYqHJNkPH7g"
+access_token=""
+access_secret=""
+consumer_key=""
+consumer_secret=""
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
